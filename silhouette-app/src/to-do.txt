@@ -1,0 +1,35 @@
+Project Outline
+ 
+Components:
+1. Display Images
+2. Directory of Images 
+3. Object containing list of Images
+4. Timer
+5. Slideshow
+6. Wrapper for Timer and Slideshow
+7. Buttons to scroll through images
+
+Project Setup:
+1. Get list of images from Directory X
+    a. How do I check that this was successful?
+2. Load into array X
+3. Randomize order of images x
+4. Turn into a list x
+5. Feed list into Slideshow  
+6. Display Image #1 to start x
+7. Adjust size of images to fit, use CSS to alter objects x
+
+Project Live State:
+1. Timer counts down, when counter == 0, move to next image.
+2. Next Image and Previous Image move up and down the slideshow
+    a. Reset Timer
+3. 
+
+Project To Do:
+
+1. Slideshow
+    --in slideshow.js
+2. Timer
+    --connect to slideshow
+    --add multiple selections
+3. Wrap Slideshow and Timer into a single class

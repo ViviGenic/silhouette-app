@@ -1,0 +1,59 @@
+img.Image {
+  max-width: 100%;
+  text-align: center;
+  height: 100%;
+  max-height: 600px;
+  object-fit: contain;
+  background-color: rgb(230, 230, 230);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.changeIndex {
+  display: inline-block;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #9DE3D8;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 12px;
+  font-style: bold;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #a6bcc0;
+  color: white;
+}
+
+div#ImageDisplayContainer {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px #ebfaf4 solid;
+}
+
+div {
+  background-color: #AECBFD;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+display {
+  text-align: center;
+  color:gainsboro;
+  background-color: #AECAFD;
+}
+
+timerStyle {
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #AECBFD;
+}
